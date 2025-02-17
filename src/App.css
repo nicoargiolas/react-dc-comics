@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans';
 }
 
 .container {
@@ -71,7 +72,7 @@ main .main-navbar ul li img {
 
 /* Footer */
 
-footer {
+.footer-menu {
   background-image: url("../public/img/dc-logo-bg.png"), url("../public/img/footer-bg.jpg");
   background-size: auto 140%, cover;
   background-repeat: no-repeat, no-repeat;
