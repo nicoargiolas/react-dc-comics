@@ -41,10 +41,53 @@ header ul li {
 
 /* Regole main */
 main .content {
-  /* DEBUG */
-  height: 100px;
   background-color: #1C1C1C;
   color: white;
+}
+
+main .jumbotron {
+  height: 300px;
+  background-image: url("../public/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+main #comics-list .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  display: inline-block;
+  background-color: #0082F9;
+  padding: 5px 20px;
+  margin: 30px 0;
+  align-self: flex-start;
+}
+
+main .card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .load-more {
+  display: inline-block;
+  background-color: #0082F9;
+  padding: 5px 20px;
+  margin: 30px;
+  vertical-align: center;
+}
+
+main .card {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+main .card img {
+  max-height: 200px;
 }
 
 main .main-navbar {

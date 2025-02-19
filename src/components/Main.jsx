@@ -1,8 +1,11 @@
+import ComicsList from "./comics/ComicsList";
+
 export default function Main() {
     return (<main>
 
         <div className="content">
-            <div className="container"> Content goes here </div>
+            <div className="jumbotron"> </div>
+            <ComicsList />
         </div>
         <div className="main-navbar">
             <div className="container">
